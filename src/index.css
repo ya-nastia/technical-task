@@ -5,6 +5,20 @@ body {
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    padding: 0;
+
+    background: no-repeat url(../src/assets/icons/bg.svg),lightgray;
+    background-color: #101F25;
+    background-position: 0 0, 50% 50%;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    overflow: hidden;
+}
+
+#root {
+    overflow-y: scroll;
+    height: 100vh;
 }
 
 code {
